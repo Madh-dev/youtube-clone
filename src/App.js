@@ -10,7 +10,7 @@ function App() {
     const [videos, setVideos]= useState([]);
     const [selectedVideo, setselectedVideo] = useState(null);
     useEffect(()=>{
-      handleSubmit('liverpool');
+      handleSubmit('Chelsea');
     },[])
     const onVideoSelect  = (video) =>{
       setselectedVideo(video);
